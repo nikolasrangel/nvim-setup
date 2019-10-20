@@ -45,4 +45,14 @@ set ignorecase
 " Search case-sensitive if expression contains a capital letter
 set smartcase
 
+" Syntax highlighting items specify folds
+set foldmethod=syntax
 
+" Defines 1 col at window left, to indicate folding
+set foldcolumn=1
+
+" Activate folding by JS syntax
+let javaScript_fold=1
+
+" Start file with all folds opened
+set foldlevelstart=99
