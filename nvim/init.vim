@@ -56,3 +56,6 @@ let javaScript_fold=1
 
 " Start file with all folds opened
 set foldlevelstart=99
+
+" Copy to system clipboard
+set clipboard+=unnamedplus
